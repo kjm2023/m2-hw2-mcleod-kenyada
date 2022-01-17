@@ -8,20 +8,49 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- Custom CSS-->
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Assignment 2 | Kenyada McLeod</h1>
+    <h1 class="text-uppercase text-center">Assignment 2 | Kenyada McLeod</h1>
+    <!--Alert -->
+    <div class="alert alert-warning text-center" role="alert">
+       Warning: This is my first time working with Bootstrap!
+    </div>
 
-    <img src="img/hw2-image1.png" alt="perspective view of windows" title="perspective view of windows" />
-    <img src="img/hw2-image2.png" alt="cupcakes" title="cupcakes" />
-    <img src="img/hw2-image3.png" alt="graffiti" title="graffiti" />
-    <img src="img/hw2-image4.png" alt="beach" title="beach" />
-    <img src="img/hw2-image5.png" alt="perspective view of building" title="perspective view of building" />
-    <img src="img/hw2-image6.png" alt="headphones" title="headphones" />
-    <img src="img/hw2-image7.png" alt="island" title="island" />
-    <img src="img/hw2-image8.png" alt="person winking" title="person winking" />
-    <img src="img/hw2-image9.png" alt="coral" title="coral" />
+    <div id="photo-grid" class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image1.png" alt="perspective view of windows" title="perspective view of windows" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image2.png" alt="cupcakes" title="cupcakes" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image3.png" alt="graffiti" title="graffiti" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image4.png" alt="beach" title="beach" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image5.png" alt="perspective view of building" title="perspective view of building" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image6.png" alt="headphones" title="headphones" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image7.png" alt="island" title="island" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image8.png" alt="person winking" title="person winking" />
+            </div>
+            <div class="col">
+                <img class="shadow-sm" src="img/hw2-image9.png" alt="coral" title="coral" />
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
